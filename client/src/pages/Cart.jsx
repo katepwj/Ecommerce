@@ -7,7 +7,7 @@ import { mobile } from "../responsive";
 import { cart, num, amt, increment, decrement, removeItem } from "../redux/cartSlice";
 import { useSelector, useDispatch } from 'react-redux'
 import { Link } from "react-router-dom";
-// import { RiDeleteBin5Line } from "react-icons/ri"
+
 
 import { FaRegTrashAlt } from "react-icons/fa"
 

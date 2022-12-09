@@ -66,34 +66,6 @@ router.get("/all", async (req, res) => {
   }
 });
 
-//GET ALL CategoryS
-// router.get("/", async (req, res) => {
-//   const qNew = req.query.new;
-//   const qCategory = req.query.category;
-//   try {
-//     let Categorys;
 
-//     if (qNew) {
-//       Categorys = await Category.find().sort({ createdAt: -1 });
-//     } else if (qCategory) {
-//       Categorys = await Category.find({
-//         categories:
-//           // qCategory 
-//          {
-//           $in: [qCategory],
-//         }
-//         ,
-//       });
-
-//     } else {
-//   Categorys = await Category.find();
-// }
-
-// res.status(200).json(Categorys);
-// console.log(Categorys)
-//   } catch (err) {
-//   res.status(500).json(err);
-// }
-// });
 
 module.exports = router;

@@ -88,7 +88,6 @@ const Product = (props) => {
         </Icon>
         <Icon>
           <FavoriteBorderOutlined />
-          {/* ${item.price} */}
         </Icon>
       </Info>
     </Container>

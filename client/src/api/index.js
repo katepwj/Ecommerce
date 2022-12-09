@@ -18,28 +18,7 @@ export const fetchProduct=(id)=>API.get(`/products/find/${id}`)
 export const fetchOneCategory=(category)=>API.get(`/products?category=${category}`)
 
 export const fetchCategories=()=>API.get("/categories/all")
-// export const fetchCategories=()=>API.get("/categories")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// export const fetchPosts=()=>API.get("/posts")
-// export const createPost=(newPosts)=>API.post("/posts",newPosts)
-// export const likePost=(id)=>API.patch("/")
-// export const signIn=(formData)=>API.post("/user/signin",formData)
-// export const signUp=(formData)=API.post("user/signup",formData)
 
 
 

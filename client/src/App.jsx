@@ -9,8 +9,8 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
- 
-  
+
+
 const App = () => {
   const user = true
   return (<Switch>
@@ -23,7 +23,9 @@ const App = () => {
         user ? <Redirect to="/" /> : <Login />
       )
     }} />
-
+    {/* <Route path="/login" component={Login} /> */}
+    {/* <Route path="/register" component={Register} /> */}
+    {/* <Route path="*" component={NotFound} /> */}
 
   </Switch>
   )
@@ -32,6 +34,3 @@ const App = () => {
 export default App;
 
 
-{/* <Route path="/login" component={Login} /> */ }
-{/* <Route path="/register" component={Register} /> */ }
-{/* <Route path="*" component={NotFound} /> */ }

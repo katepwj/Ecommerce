@@ -1,7 +1,5 @@
-// import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import styled from "styled-components";
-// import { popularProducts } from "../data";
 import Product from "./Product";
 import { fetchProducts, fetchOneCategory } from '../api/index'
 
